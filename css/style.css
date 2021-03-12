@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.header-title {
+  font-weight: 300;
+}
+
+.header-title b {
+  color: #007bff;
+  font-size: 35px;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(to bottom, #e5e5e5, #e9e9e9);
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-top: 200px;
+}
+
+h1 {
+  margin-bottom: 30px;
+}
+
+.inputs {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.inputs input {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.inputs img {
+  position: absolute;
+  height: 30px;
+  left: 15px;
+  padding: 10px;
+}
+
+.inputs p {
+  font-size: 13px;
+  position: absolute;
+  right: 15px;
+  padding: 10px 10px;
+}
+
+.input {
+  flex: 1 1 50%;
+  margin: 15px;
+  background: none;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 15px;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+.input:focus {
+  box-shadow: 0px 0px 6px 1px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.rate-price {
+  font-size: 20px;
+}
