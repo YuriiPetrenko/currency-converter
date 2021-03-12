@@ -62,7 +62,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "getRate": function() { return /* binding */ getRate; }
 /* harmony export */ });
-const url = 'http://api.nbp.pl/api/exchangerates/rates/a/gbp';
+const url = 'https://api.nbp.pl/api/exchangerates/rates/a/gbp';
 
 const getRate = async () => {
   const res = await fetch(url);
